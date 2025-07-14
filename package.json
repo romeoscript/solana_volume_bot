@@ -5,7 +5,7 @@
     "name": "Ranail"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node api.js",
     "gather": "node gather.js",
     "api": "node api.js"
   },
