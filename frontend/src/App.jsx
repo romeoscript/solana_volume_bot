@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API_BASE = 'http://localhost:3001/api'
+const API_BASE = 'https://solana-volume-bot-aeqp.onrender.com/api'
 
 function App() {
   const [mainWallet, setMainWallet] = useState(null)
