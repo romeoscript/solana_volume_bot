@@ -86,9 +86,9 @@ npm run gather
 
 ### Discord: rabnail_15 in discord
 
-### Twitter: [@Rabnail_SOL](https://twitter.com/Rabnail_SOL)   
+### Twitter: [@romeoscript1](https://twitter.com/romeoscript1)   
 
-### Telegram: [@Rabnail_SOL](https://t.me/Rabnail_SOL)   
+### Telegram: [@romeoscript1](https://t.me/romeoscript1)   
 
 
 You can always find me here, for help, or for other projects.
