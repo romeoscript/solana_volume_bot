@@ -101,6 +101,10 @@ app.post('/api/config', (req, res) => {
 // Add logs endpoint
 app.get('/api/logs', (req, res) => {
   try {
+    // Ensure the file exists
+    if (!fs.existsSync('progress.log')) {
+      fs.writeFileSync('progress.log', '');
+    }
     const logs = fs.readFileSync('progress.log', 'utf-8').split('\n').slice(-100);
     res.json({ logs });
   } catch (e) {
